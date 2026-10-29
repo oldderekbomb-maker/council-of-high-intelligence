@@ -1,0 +1,29 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Generated report documents
+russia_ukraine_war_*.docx
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node (markdownlint-cli installs locally during CI)
+node_modules/
+
+# gstack browser logs (already in repo — do not re-add)
+.gstack/
